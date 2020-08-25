@@ -9,5 +9,6 @@
 def add(x, y):
     return x + y
 
-
+if __name__ == "__main__":
+    print(f'Tulostetaan {add(1,2)}')
 # print(add(args.arguments[0], args.arguments[1]))
